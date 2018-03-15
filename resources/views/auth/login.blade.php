@@ -26,9 +26,9 @@
 
             <button type="submit">Login</button>
 
-            <div class="pen-title-mini">
+            <!-- <div class="pen-title-mini">
                 <span><i class='fa fa-code'></i> Belum punya akun? <a href="{{ route('register') }}">Daftar disini</a></span>
-            </div>            
+            </div>             -->
         </form>
     </div>
     <div class="cta"><a href="{{ route('password.request')}}">Lupa password?</a></div>
