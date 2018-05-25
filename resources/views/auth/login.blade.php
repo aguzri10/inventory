@@ -1,4 +1,4 @@
-@extends('layouts.logreg')
+@extends('layouts.templates.theme-login')
 
 @section('content')
 <div class="pen-title">
@@ -34,5 +34,4 @@
     <div class="cta"><a href="{{ route('password.request')}}">Lupa password?</a></div>
 </div>
 
-<script  src="{{ asset('js/index.js') }}"></script>
 @endsection

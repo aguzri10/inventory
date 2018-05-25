@@ -1,4 +1,4 @@
-@extends('layouts.logreg')
+@extends('layouts.templates.theme-login')
 @section('content')
     <div class="pen-title">
         <h1>Inventory</h1>
